@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupin Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        
+        body{
+            font-family: 'Oswald';
+            background-color: gray;
+            color: black;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+        }
+
+        nav{
+            background-color: black;
+            box-shadow: 1px 5px 1px rgba(0, 0, 0, 0.151);
+        }
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+            }
+        article {
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: lightslategray;
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover {
+            text-decoration: underline;
+        }
+        h1 {
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+        }
+        h2 {
+            text-shadow: 1px 1px 2px rgba(37, 204, 255, 0.26);
+        }
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícia 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores nemo, laborum natus, dolorem aliquam deserunt maxime ab odit, voluptates repellat est sunt. Quia fuga modi vero ut. Nisi, quo cum.</p>
+                <aside>
+                    <p>Artigo escrito por mim.</p>
+                </aside>
+            </article>
+            <article></article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido pelo CursoemVideo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>

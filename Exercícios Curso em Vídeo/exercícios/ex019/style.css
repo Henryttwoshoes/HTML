@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+/*
+    Em HTML id = # em CSS
+*/
+body {
+    background-color: rgb(199, 255, 183);
+    font-family: sans-serif;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+h1#principal {
+    color: rgb(0, 32, 90);
+    text-align: center;
+}
+
+h2 {
+    color: brown;
+}
+.topico2 {
+    color: rgb(255, 0, 0);
+}
