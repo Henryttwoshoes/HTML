@@ -58,15 +58,22 @@ main {
 }
 
 article  ul  img {
-    max-width: 500px;
+    max-width: 700px;
 }
 
 ul {
     list-style-position: inside;
     list-style-type: none;
-    text-align: left;
-    padding-left: 150px;
+    text-align: center;
+    padding-left: 50px;
     padding-right: -1000px;
-    columns: 2;
-    
+    columns: 1;
+    max-width: 1500px;
+    min-width: 1000px;
+    margin: auto;
+}
+
+ul > li {
+    max-width: 1500px;
+    min-width: 1000px;
 }
