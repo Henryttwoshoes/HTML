@@ -2,14 +2,15 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Russo+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 
 
 :root {
- --cor01: #0A0A0D;
- --cor02: #F2B807;
- --cor03: #F2A007;
- --cor04: #F25D07;
- --cor05: #F2F2F2;
+ --cor01: #EBAB4B;
+ --cor02: #EA904B;
+ --cor03: #EB554B;
+ --cor04: #5BADEB;
+ --cor05: #5276EB;
 
  
 }
@@ -29,7 +30,7 @@ body {
 
 header {
     min-height: 150px;
-    background-color: var(--cor01);
+    background-color: var(--cor02);
     padding-top: 40px;
 }
 
@@ -40,13 +41,14 @@ header > h1 {
 }
 
 header img {
-    width: 800px;
+    width: 500px;
     margin: auto;
     margin-bottom: 20px;
+    max-width: 500px;
 }
 
 footer {
-    background-color: var(--cor04);
+    background-color: var(--cor03);
     padding: 5px;
 }
 
@@ -54,23 +56,23 @@ main {
     min-width: 500px;
     max-width: 1500px;
     margin: auto;
-    background-color: var(--cor03);
+    background-color: var(--cor04);
 }
 
 article  ul  img {
-    max-width: 700px;
+    max-width: 300px;
+    margin: auto;
 }
 
 ul {
     list-style-position: inside;
     list-style-type: none;
-    text-align: center;
+    text-align: left;
     padding-left: 50px;
     padding-right: -1000px;
-    columns: 1;
+    columns: 4;
     max-width: 1500px;
     min-width: 1000px;
-    margin: auto;
 }
 
 ul > li {
