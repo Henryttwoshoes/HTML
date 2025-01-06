@@ -22,7 +22,7 @@
 
 
 body {
-    font-family: 'Roboto';
+    font-family: 'Kanit';
     background-color: var(--cor05);
     color: black;
     text-align: center;
@@ -38,6 +38,8 @@ header > h1 {
     font-size: 4em;
     margin: 0px 40px 40px 40px;
     color: white;
+    font-family: 'Russo One';
+    font-weight: normal;
 }
 
 header img {
@@ -50,6 +52,7 @@ header img {
 footer {
     background-color: var(--cor03);
     padding: 5px;
+    color: white;
 }
 
 main {
@@ -59,11 +62,37 @@ main {
     background-color: var(--cor04);
 }
 
+main h1 {
+    font-family: 'Russo One';
+}
+
 article  ul  img {
     max-width: 300px;
     margin: auto;
+    margin-bottom: -24px;
 }
 
+article h2 {
+    font-family: 'Russo One';
+    font-size: 2em;
+}
+
+article p {
+    text-align: justify;
+    padding: 0 200px 0 200px;
+}
+
+article.jogos {
+    background-color: var(--cor05);
+}
+
+article.jogos h1 {
+    text-align: left;
+}
+
+h1#headerjogos{
+    font-size: 3em;
+}
 ul {
     list-style-position: inside;
     list-style-type: none;
@@ -73,6 +102,7 @@ ul {
     columns: 4;
     max-width: 1500px;
     min-width: 1000px;
+    font-size: 2em;
 }
 
 ul > li {
