@@ -6,11 +6,10 @@
 
 
 :root {
- --cor01: #EBAB4B;
- --cor02: #EA904B;
- --cor03: #EA6C66;
- --cor04: #90D1C9;
- --cor05: #EACA78;
+ --cor01: #DB613D;
+ --cor02: #DC7D3D;
+ --cor03: #DB983D;
+ --cor04: #221D1A;
 
  
 }
@@ -23,7 +22,7 @@
 
 body {
     font-family: 'Kanit';
-    background-color: var(--cor05);
+    background-color: var(--cor04);
     color: black;
     text-align: center;
 }
@@ -59,7 +58,7 @@ main {
     min-width: 500px;
     max-width: 1500px;
     margin: auto;
-    background-color: var(--cor04);
+    background-color: var(--cor02);
 }
 
 main h1 {
