@@ -45,6 +45,12 @@ header img {
     margin: auto;
     margin-bottom: 20px;
     max-width: 500px;
+    transition-duration: 0.5s;
+}
+
+header img:hover {
+    width: 700px;
+    max-width: 700px;
 }
 
 footer {
@@ -77,6 +83,10 @@ article h2 {
     color: white;
 }
 
+article.sobrenós h2 {
+    color: black;
+
+}
 article p {
     text-align: justify;
     padding: 0 300px 0 300px;
@@ -85,12 +95,12 @@ article p {
 }
 
 article.jogos {
-    background-color: var(--cor03);
+    background-color: lightgray;
 }
 
 article.jogos h1 {
     text-align: left;
-    color: white;
+    color: black;
 }
 
 h1#headerjogos{
@@ -116,8 +126,14 @@ ul > li {
 article.quemsomos p {
     text-align: center;
     color: white;
+    font-size: 3em;
 }
 
 article.quemsomos{
     background-color: var(--cor03);
+    transition-duration: 0.5s;
+}
+
+article.quemsomos:hover {
+    background-color: var(--cor01);
 }
