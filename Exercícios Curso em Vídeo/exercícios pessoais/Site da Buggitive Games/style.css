@@ -74,16 +74,18 @@ article  ul  img {
 
 article h2 {
     font-family: 'Russo One';
-    font-size: 2em;
+    font-size: 2.5em;
 }
 
 article p {
     text-align: justify;
-    padding: 0 200px 0 200px;
+    padding: 0 300px 0 300px;
+    font-size: 24px;
+    text-indent: 65px;
 }
 
 article.jogos {
-    background-color: var(--cor05);
+    background-color: lightgray;
 }
 
 article.jogos h1 {
