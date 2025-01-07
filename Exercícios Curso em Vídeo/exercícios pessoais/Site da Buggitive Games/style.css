@@ -29,7 +29,15 @@ header {
     min-width: 150px;
     background-color: var(--cor02);
     padding-top: 40px;
+    padding-bottom: 270px;
+}
 
+header > h2 {
+    font-size: 2.5em;
+    margin: 0px 40px 40px 40px;
+    color: black;
+    font-family: 'Russo One';
+    font-weight: normal;
 }
 
 header > h1 {
@@ -44,13 +52,15 @@ header img {
     width: 500px;
     margin: auto;
     margin-bottom: 20px;
-    max-width: 500px;
+    max-width: 900px;
     transition-duration: 0.5s;
+    padding-bottom: 120px;
+    padding-top: 20px;
 }
 
 header img:hover {
     width: 700px;
-    max-width: 700px;
+    max-width: 900px;
 }
 
 footer {
@@ -87,10 +97,41 @@ article.sobrenós h2 {
     color: black;
 
 }
+
+article.sobrenós p {
+    color: black;
+    font-size: 1.8em;
+}
+
+article.sobrenós h2 {
+    padding: 20px 0 20px 0;
+}
+
+article.sobrenós {
+    margin: auto;
+    height: 583px;
+}
+
+article.quemsomos p {
+    text-align: center;
+    color: white;
+    font-size: 3.7em;
+    padding: 75px 0 75px 0;
+}
+
+article.quemsomos{
+    background-color: var(--cor03);
+    transition-duration: 0.5s;
+    margin: auto;
+}
+
+article.quemsomos:hover {
+    background-color: var(--cor01);
+}
+
 article p {
     text-align: justify;
-    padding: 0 300px 0 300px;
-    font-size: 24px;
+    padding: 0 100px 0 100px;
     text-indent: 70px;
 }
 
@@ -123,17 +164,3 @@ ul > li {
     margin: auto;
 }
 
-article.quemsomos p {
-    text-align: center;
-    color: white;
-    font-size: 3em;
-}
-
-article.quemsomos{
-    background-color: var(--cor03);
-    transition-duration: 0.5s;
-}
-
-article.quemsomos:hover {
-    background-color: var(--cor01);
-}
