@@ -10,7 +10,7 @@
  --cor02: #EA904B;
  --cor03: #EB554B;
  --cor04: #5BADEB;
- --cor05: #5276EB;
+ --cor05: #293B76;
 
  
 }
@@ -82,7 +82,7 @@ article p {
     text-align: justify;
     padding: 0 300px 0 300px;
     font-size: 24px;
-    text-indent: ;
+    text-indent: 70px;
 }
 
 article.jogos {
@@ -112,4 +112,13 @@ ul {
 ul > li {
     max-width: 1500px;
     min-width: 1000px;
+}
+
+article.quemsomos p {
+    text-align: center;
+    color: white;
+}
+
+article.quemsomos{
+    background-color: var(--cor03);
 }
