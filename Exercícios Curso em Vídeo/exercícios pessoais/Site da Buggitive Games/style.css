@@ -121,10 +121,6 @@ article.quemsomos{
     margin: auto;
 }
 
-article.quemsomos img {
-    max-width: 525px;
-}
-
 article.quemsomos:hover {
     background-color: var(--cor01);
 }
