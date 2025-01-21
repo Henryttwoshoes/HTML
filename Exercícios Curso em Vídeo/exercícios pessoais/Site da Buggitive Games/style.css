@@ -110,7 +110,7 @@ article.sobrenós {
 article.quemsomos p {
     text-align: center;
     color: white;
-    font-size: 3.7vw;
+    font-size: 2.4vw;
     padding: 10px 0 75px 0;
     margin: 0 100px 0 100px;
 }
@@ -188,7 +188,7 @@ article  ul  img {
 
 aside {
     height: 45vh;
-    background-color: black;
+    background-color: rgb(51, 51, 51);
     color: lightgray;
     padding: 50px 0 250px 0;
     position: relative;
@@ -196,12 +196,12 @@ aside {
 }
 
 aside h1 {
-    font-size: 4em;
+    font-size: 4vw;
     padding: 20px 0 20px 0;
 }
 
 section#contato {
-    background: black url('contentdosite/imagens/contato.png') center center no-repeat fixed;
+    background: url('contentdosite/imagens/contato.png') center center no-repeat fixed;
     background-size: 100% 100%;
 
     position: absolute;
@@ -216,13 +216,13 @@ section#contato {
 aside h2 {
     text-align: right;
     padding: 14px 205px 10px 0;
-    font-size: 3em;
+    font-size: 3vw;
 }
 
 aside h2#Maydream {
     text-align: right;
     padding: 14px 0px 10px 470px;
-    font-size: 1.9em;
+    font-size: 1.9vw;
     display: inline;
 }
 
