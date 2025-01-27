@@ -217,9 +217,9 @@ section#contato {
 
     position: absolute;
     background-color: rgba(rgba(0, 0, 0, 0));
-    width: 350px;
-    height: 350px;
-    left: 50%;
+    width: 35vh;
+    height: 35vh;
+    left: 45%;
     top: 50%;
     transform: translate(-121%, -31%);
 }
