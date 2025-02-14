@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 400px) and (max-width: 768px) {
-    body {
-        overflow-x: hidden;
-    }
+* {
+    max-width: 100%;
+    box-sizing: border-box;
+}
     ul li {
         width: 10vw;
     }
@@ -24,11 +25,11 @@
     }
 
     p, h1, h2, h3{
-        margin: 0 50px 0 50px;
+        margin: auto;
     }
 
     aside {
-        max-width: 1500px;
+        max-width: auto;
     }
 
     article.jogos section h1 {
