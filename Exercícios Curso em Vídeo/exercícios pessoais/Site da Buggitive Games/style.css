@@ -52,7 +52,7 @@ header > h1 {
 }
 
 header img {
-    width: 900px;
+    width: 50vw;
     margin: auto;
     margin-bottom: 20px;
     max-width: 900px;
@@ -99,7 +99,14 @@ article.sobrenós h2 {
 
 article.sobrenós p {
     color: black;
-    font-size: 2.3vw;
+    font-size: 1.4em;
+    margin: 0 50px 0 50px;
+}
+
+article.quemsomos p {
+    color: black;
+    font-size: 1.4em;
+    margin: 0 50px 0 50px;
 }
 
 article.sobrenós h2 {
@@ -113,9 +120,9 @@ article.sobrenós {
 article.quemsomos p {
     text-align: center;
     color: white;
-    font-size: 2.4vw;
+    font-size: 1.4em;
     padding: 10px 0 10px 0;
-    margin: 0 100px 0 100px;
+    margin: 0 50px 0 50px;
 }
 
 article.quemsomos{
@@ -149,7 +156,7 @@ article.jogos h1 {
 article.jogos section h1 {
     text-align: center;
     margin: auto;
-    font-size: 2.1vw;
+    font-size: 2.6em;
     background-color: rgb(175, 175, 175);
     padding: 30px 0 30px 0;
 }
@@ -198,16 +205,18 @@ article  ul  img {
 }*/
 
 aside {
-    height: 45vh;
+    min-width: 500px;
+    max-width: 2200px;
     background-color: rgb(51, 51, 51);
     color: lightgray;
-    padding: 50px 0 250px 0;
+    margin: 0px;
+    padding: 50px 0 450px 0;
     position: relative;
     background-size: 100% 100%;
 }
 
 aside h1 {
-    font-size: 4vw;
+    font-size: 4em;
     padding: 20px 0 20px 0;
 }
 
@@ -219,28 +228,21 @@ section#contato {
     background-color: rgba(rgba(0, 0, 0, 0));
     width: 35vh;
     height: 35vh;
-    left: 45%;
-    top: 50%;
-    transform: translate(-121%, -31%);
+    left: 25%;
+    top: 62%;
+    transform: translate(-50%, -50%);
 }
 
 aside h2 {
     text-align: right;
-    padding: 14px 205px 10px 0;
-    font-size: 3vw;
+    margin-right: 100px;
+    font-size: 2.4em;
 }
 
 aside h2#Maydream {
     text-align: right;
-    padding: 14px 0px 10px 470px;
-    font-size: 1.9vw;
+    font-size: 1.5em;
+    margin-left: 700px;
     display: inline;
 }
 
-img#foto {
-    position: absolute;
-    display: block;
-    width: 225px;
-    right: 400px;
-    
-}
