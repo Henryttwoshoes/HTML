@@ -60,3 +60,79 @@
         transition-duration: 0.5s;
     }
 }
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    * {
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+
+        ul li {
+            width: 10vw;
+        }
+
+        li span {
+            font-size: 0.7em;
+            margin: auto;
+        }
+        header img:hover {
+            width: 90vw;
+            max-width: 70vw;
+        }
+        ul {
+    
+        text-align: left;
+        columns: 1;
+        font-size: 2em;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 80vw;
+        min-width: 10vw;
+        margin: 0 0 0 -130px;
+        }
+    
+        p, h1, h2, h3{
+            margin: auto;
+        }
+    
+        aside {
+            max-width: auto;
+        }
+    
+        article.jogos section h1 {
+            text-align: center;
+            margin: auto;
+            font-size: 2em;
+            background-color: rgb(175, 175, 175);
+            padding: 30px 0 30px 0;
+        }
+    
+        aside h1 {
+            font-size: 2em;
+            padding: 0px;
+            margin: 0px;
+        }
+    
+        aside h2#Maydream {
+            text-align: right;
+            font-size: 1.5em;
+            margin-right: 0px;
+            margin-left: 0px;
+            display: inline;
+        }
+        article  ul  img {
+            max-width: 300px;
+            margin: auto;
+            margin-bottom: -24px;
+            transition-duration: 0.5s;
+        }
+    }
+    
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+        li span {
+            font-size: 0.7em;
+            margin: auto;
+        }
+    
+    }
