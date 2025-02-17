@@ -20,11 +20,28 @@ header > h1 {
 }
 
 menu {
-    display: block;
+    display: none;
 }
 
 menu > ul {
     list-style-type: none;
+}
+
+span#burger{
+    background-color: rgb(65, 65, 65);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+span#burger:hover {
+    background-color: white;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
 }
 
 menu li {
