@@ -90,3 +90,35 @@ article#games img {
     }
 }
 
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    header#hgames p, h1, h3 {
+        font-size: 4vw; 
+    }
+    header#hgames {
+        padding-bottom: 300px; 
+    }
+
+    section#Return {
+        padding: 100px 0 100px 0;
+    }
+
+    header#hgames h2 {
+        margin-bottom: 400px;
+    }
+
+    header#hgames img {
+        width: 50vw;
+    }
+
+    article#games p,
+    article#games h1,
+    article#games h2,
+    article#games h3 {
+        font-size: 4vw;
+    }
+    article#games img {
+        width: 40vw;
+        max-width: 100%;
+    }
+}
