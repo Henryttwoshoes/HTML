@@ -73,4 +73,12 @@ TV: acima de 1200px
     div#formulario p {
         font-size: 1.2em;
     }
+
+    form > input[type=submit] {
+        width: 49.5%;
+        }
+
+    form > a.botao {
+        width: 49.5%;
+        }    
 }
