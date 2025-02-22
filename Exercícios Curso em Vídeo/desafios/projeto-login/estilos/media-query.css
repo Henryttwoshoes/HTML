@@ -80,5 +80,9 @@ TV: acima de 1200px
 
     form > a.botao {
         width: 49.5%;
-        }    
+        }
+        
+    form > div.campo {
+        width: 49.5%;
+    }
 }
