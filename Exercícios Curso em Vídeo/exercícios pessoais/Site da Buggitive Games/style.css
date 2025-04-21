@@ -170,6 +170,10 @@ h1#headerjogos{
     text-align: center;
 }
 
+#pequeno {
+    font-size: 0.8em;
+}
+
 section#listadejogos {
     display: flex;
     flex-flow: row wrap;
