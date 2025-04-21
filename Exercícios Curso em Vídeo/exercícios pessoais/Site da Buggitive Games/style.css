@@ -169,39 +169,28 @@ h1#headerjogos{
     font-size: 3em;
     text-align: center;
 }
-ul {
-    list-style-position: inside;
-    list-style-type: none;
-    text-align: left;
-    padding-left: 50px;
-    padding-right: 0;
-    columns: 4;
-    max-width: 1300px;
-    width: 100%;
-    font-size: 2em;
+
+section#listadejogos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+section#listadejogos  img {
+    max-width: 200px;
+    padding: 5px;
+
 }
 
-ul > li {
-    width: 500px;
-    margin: auto;
-}
+img.meio {
+    display: block;
 
-ul span {
-    padding-top: 50px;
-    text-align: justify;
-    font-size: 0.5em;
-    margin: auto;
 }
 
 span#pequeno {
     font-size: 0.6em;
 }
-article  ul  img {
-    max-width: 200px;
-    margin: auto;
-    margin-bottom: -24px;
-    transition-duration: 0.5s;
-}
+
 
 /*ul img:hover {
   max-width: 325px;
